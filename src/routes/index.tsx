@@ -6,9 +6,14 @@ import { contact, showLiveMusic, hours } from "@/content/site";
 import { Nav } from "@/components/site/Nav";
 import { MenuSection } from "@/components/site/MenuSection";
 import { Gallery } from "@/components/site/Gallery";
-import hero from "@/assets/hero.jpg";
-import about from "@/assets/about.jpg";
-import liveMusic from "@/assets/live-music.jpg";
+import heroAsset from "@/assets/hero.jpg.asset.json";
+import aboutAsset from "@/assets/terrace.jpg.asset.json";
+import liveMusicAsset from "@/assets/interior.jpg.asset.json";
+
+const hero = heroAsset.url;
+const about = aboutAsset.url;
+const liveMusic = liveMusicAsset.url;
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
