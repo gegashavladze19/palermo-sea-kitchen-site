@@ -1,20 +1,21 @@
 import { useLang } from "@/lib/lang";
-import khachapuri from "@/assets/gallery-khachapuri.jpg";
-import khinkali from "@/assets/gallery-khinkali.jpg";
-import kebab from "@/assets/gallery-kebab.jpg";
-import fish from "@/assets/gallery-fish.jpg";
-import salad from "@/assets/gallery-salad.jpg";
-import soup from "@/assets/gallery-soup.jpg";
+import khachapuriAdjaruli from "@/assets/khachapuri-adjaruli.jpg.asset.json";
+import khinkali from "@/assets/khinkali.jpg.asset.json";
+import grilledPlatter from "@/assets/grilled-platter.jpg.asset.json";
+import khachapuri from "@/assets/khachapuri.jpg.asset.json";
+import kharcho from "@/assets/kharcho.jpg.asset.json";
+import terrace from "@/assets/terrace.jpg.asset.json";
 
-/** Replace these files in src/assets/ with the restaurant's own photos. */
+/** Official photos of Palermo Restaurant, Ureki. */
 const photos = [
-  { src: khachapuri, alt: "Adjarian khachapuri" },
-  { src: khinkali, alt: "Georgian khinkali" },
-  { src: kebab, alt: "Grilled kebab" },
-  { src: fish, alt: "Grilled fish" },
-  { src: salad, alt: "Fresh salad" },
-  { src: soup, alt: "Kharcho soup" },
+  { src: khachapuriAdjaruli.url, alt: "Adjarian khachapuri at Palermo" },
+  { src: khinkali.url, alt: "Georgian khinkali at Palermo" },
+  { src: grilledPlatter.url, alt: "Grilled vegetables and fish platter" },
+  { src: khachapuri.url, alt: "Freshly baked khachapuri" },
+  { src: kharcho.url, alt: "Kharcho soup" },
+  { src: terrace.url, alt: "Outdoor terrace seating at Palermo" },
 ];
+
 
 export function Gallery() {
   const { d } = useLang();
