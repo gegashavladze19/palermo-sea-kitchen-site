@@ -5,8 +5,9 @@ import { cn } from "@/lib/utils";
 
 export function MenuSection() {
   const { d, lang } = useLang();
-  const [active, setActive] = useState(menu[0].id);
-  const current = menu.find((c) => c.id === active) ?? menu[0];
+  const [active, setActive] = useState(menu[0]!.id);
+  const current = menu.find((c) => c.id === active) ?? menu[0]!;
+
 
   return (
     <section id="menu" className="bg-night py-20 text-night-foreground sm:py-28">
