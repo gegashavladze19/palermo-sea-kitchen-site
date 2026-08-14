@@ -182,10 +182,6 @@ export const dishes: Dish[] = [
       en: "Seasonal vegetables with onion and herbs.",
       ru: "Сезонные овощи с луком и зеленью.",
     },
-    photo: "mtsvadiSalad",
-    featured: true,
-    price: "",
-  },
   {
     id: "greek",
     category: "salads",
