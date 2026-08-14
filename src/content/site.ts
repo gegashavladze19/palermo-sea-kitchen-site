@@ -15,10 +15,9 @@ export const contact = {
   /** e.g. "https://facebook.com/..." */
   facebook: "",
   /** Google Maps link (address search — replace with the exact business listing) */
-  maps: "https://www.google.com/maps/search/?api=1&query=67+Ekvtime+Takaishvili+Street+Ureki+Guria+Georgia",
-  mapsEmbed:
-    "https://www.google.com/maps?q=67%20Ekvtime%20Takaishvili%20Street%2C%20Ureki%2C%20Guria%2C%20Georgia&output=embed",
-};
+ maps: "https://www.google.com/maps/search/?api=1&query=Palermo+Restaurant+Ureki+Georgia",
+mapsEmbed:
+  "https://www.google.com/maps?q=Palermo+Restaurant+Ureki+Georgia&output=embed",};
 
 /** Set to false to hide the live-music section entirely */
 export const showLiveMusic = true;
