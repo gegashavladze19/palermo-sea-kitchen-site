@@ -27,7 +27,6 @@ import grilledPlatter from "@/assets/grilled-platter.jpg.asset.json";
 import meatStew from "@/assets/meat-stew.jpg.asset.json";
 import cutletPuree from "@/assets/cutlet-puree.jpg.asset.json";
 import ketsiCheese from "@/assets/ketsi-cheese.jpg.asset.json";
-import mtsvadiSalad from "@/assets/mtsvadi-salad.jpg.asset.json";
 import potatoWedges from "@/assets/potato-wedges.jpg.asset.json";
 import hall from "@/assets/hall.jpg.asset.json";
 import terrace from "@/assets/terrace.jpg.asset.json";
@@ -42,7 +41,6 @@ export const photos = {
   meatStew: meatStew.url,
   cutletPuree: cutletPuree.url,
   ketsiCheese: ketsiCheese.url,
-  mtsvadiSalad: mtsvadiSalad.url,
   potatoWedges: potatoWedges.url,
   hall: hall.url,
   terrace: terrace.url,
