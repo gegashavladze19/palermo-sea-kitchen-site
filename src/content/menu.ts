@@ -181,7 +181,9 @@ export const dishes: Dish[] = [
       ka: "სეზონური ბოსტნეული, ხახვი და მწვანილი.",
       en: "Seasonal vegetables with onion and herbs.",
       ru: "Сезонные овощи с луком и зеленью.",
-    },
+     },
+    price: "",
+  },
   {
     id: "greek",
     category: "salads",
