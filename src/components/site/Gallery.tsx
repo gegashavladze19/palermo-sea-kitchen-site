@@ -2,7 +2,6 @@ import { useLang } from "@/lib/lang";
 import khachapuriAdjaruli from "@/assets/khachapuri-adjaruli.jpg.asset.json";
 import khinkali from "@/assets/khinkali.jpg.asset.json";
 import grilledPlatter from "@/assets/grilled-platter.jpg.asset.json";
-import khachapuri from "@/assets/khachapuri.jpg.asset.json";
 import kharcho from "@/assets/kharcho.jpg.asset.json";
 import terrace from "@/assets/terrace.jpg.asset.json";
 
@@ -11,7 +10,6 @@ const photos = [
   { src: khachapuriAdjaruli.url, alt: "Adjarian khachapuri at Palermo" },
   { src: khinkali.url, alt: "Georgian khinkali at Palermo" },
   { src: grilledPlatter.url, alt: "Grilled vegetables and fish platter" },
-  { src: khachapuri.url, alt: "Freshly baked khachapuri" },
   { src: kharcho.url, alt: "Kharcho soup" },
   { src: terrace.url, alt: "Outdoor terrace seating at Palermo" },
 ];
