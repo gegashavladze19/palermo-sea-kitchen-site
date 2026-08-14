@@ -35,7 +35,7 @@ import interior from "@/assets/interior.jpg.asset.json";
 
 /** Real Palermo photographs. Add new ones here and reference the key on a dish. */
 export const photos = {
-  khachapuriAdjaruli: khachapuriAdjaruli.url,,
+  khachapuriAdjaruli: khachapuriAdjaruli.url,
   khinkali: khinkali.url,
   kharcho: kharcho.url,
   grilledPlatter: grilledPlatter.url,
