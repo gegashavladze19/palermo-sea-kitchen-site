@@ -112,16 +112,6 @@ export const dishes: Dish[] = [
     price: "",
   },
   {
-    id: "imeruli",
-    category: "khachapuri",
-    ka: "ხაჭაპური (იმერული)",
-    en: "Khachapuri (Imeretian)",
-    ru: "Хачапури (имеретинский)",
-    photo: "khachapuri",
-    featured: true,
-    price: "",
-  },
-  {
     id: "lobiani",
     category: "khachapuri",
     ka: "ლობიანი",
