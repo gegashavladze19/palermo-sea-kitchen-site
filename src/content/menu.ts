@@ -21,7 +21,6 @@
  */
 
 import khachapuriAdjaruli from "@/assets/khachapuri-adjaruli.jpg.asset.json";
-import khachapuri from "@/assets/khachapuri.jpg.asset.json";
 import khinkali from "@/assets/khinkali.jpg.asset.json";
 import kharcho from "@/assets/kharcho.jpg.asset.json";
 import grilledPlatter from "@/assets/grilled-platter.jpg.asset.json";
@@ -36,8 +35,7 @@ import interior from "@/assets/interior.jpg.asset.json";
 
 /** Real Palermo photographs. Add new ones here and reference the key on a dish. */
 export const photos = {
-  khachapuriAdjaruli: khachapuriAdjaruli.url,
-  khachapuri: khachapuri.url,
+  khachapuriAdjaruli: khachapuriAdjaruli.url,,
   khinkali: khinkali.url,
   kharcho: kharcho.url,
   grilledPlatter: grilledPlatter.url,
